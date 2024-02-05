@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(245, 138, 156);
+    letter-spacing: 0.1rem;
+}
+#root {
+    background-color: rgb(248, 239, 239);
+    min-width: 500px;
+    min-height: 50vh;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+}
+
+ 
+.kart {
+  width: 100%;
+  padding: 0.5rem;
+  max-height: 100px;
+  display: flex;
+  gap: 2rem;
+}
+
+.kart p {
+  margin-top: -1.5rem;
+}
+
+.kart img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  object-fit: contain;
+}
+
+#btntemizle {
+  background-color: rgb(245, 138, 156);
+  width: 500px;
+  height: 40px;
+  border-radius: 5rem;
+  border-color: aqua;
+
+}
+
+#btntemizle:hover {
+  cursor: pointer;
+}
